@@ -2,7 +2,9 @@
   "name": "playwright-cucumber-automation",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "cucumber-js test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -11,6 +13,8 @@
     "@cucumber/cucumber": "^11.0.1",
     "@playwright/test": "^1.47.2",
     "@types/node": "^22.7.2",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
   }
 }
+
