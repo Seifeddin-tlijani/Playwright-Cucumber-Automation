@@ -10,8 +10,8 @@ Feature: User Authenetication tests
     When User click on the login button
     Then Login should be success
 
-   Scenario: Login should not be success
-    And User enter the username as "seif"
-    And User enter the password as "Tlijani12"
+  Scenario: Login should not be success
+    Given User enter the username as "seif"
+    Given User enter the password as "Tlijani12"
     When User click on the login button
-    Then Login should fail
+    But Login should fail
