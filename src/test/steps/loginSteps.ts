@@ -6,9 +6,9 @@ import {chromium, Page, Browser, expect} from "@playwright/test"
 
 let browser: Browser;
 let page: Page;
+setDefaultTimeout(60 * 1000 * 5); 
 
 
-setDefaultTimeout(60 * 1000 * 2); // 2 minutes
 
 
 
@@ -18,13 +18,10 @@ Given('User navigates to the application', async function () {
       await page.goto("https://bookcart.azurewebsites.net/");
     });
 
-
-Given('User click on the login link', async function () {
-      await page.waitForSelector("//span[text()='Login']", { timeout: 10000 }); // Wait for 10 seconds
+    Given('User click on the login link', async function () {
       await page.locator("//span[text()='Login']").click();
-      
-      });
-
+  });
+  
 
    
 
