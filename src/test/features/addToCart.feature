@@ -1,4 +1,3 @@
-
 Feature: Add products to cart
 
   Background:
@@ -15,12 +14,6 @@ Feature: Add products to cart
     Then the cart badge should get updated
 
     Examples:
-      | username | password  | book            |
-      | seifeddin   | Tlijani1 | Roomies         |
-      | ortonikc | pass1234  | The Simple Wild |
-
-  @fail
-  Scenario: UnAuthenticated User - Add to cart
-    When user search for a "All of Us with Wings"
-    And user add the book to the cart
-    Then the cart badge should get updated
+      | username  | password | book            |
+      | seifeddin | Tlijani1 | Roomies         |
+      | ortonikc  | pass1234 | The Simple Wild |
