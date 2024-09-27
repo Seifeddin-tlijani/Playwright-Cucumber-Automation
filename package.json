@@ -13,8 +13,11 @@
     "@cucumber/cucumber": "^11.0.1",
     "@playwright/test": "^1.47.2",
     "@types/node": "^22.7.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.1",
+    "playwright": "^1.47.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
   }
 }
-
