@@ -10,9 +10,7 @@ Automated end-to-end tests using **Playwright** and **Cucumber.js** to validate 
 - [Installation](#installation)
 - [Running the Tests](#running-the-tests)
 - [Directory Structure](#directory-structure)
-- [Writing New Tests](#writing-new-tests)
-- [Screenshots and Reports](#screenshots-and-reports)
-- [Troubleshooting](#troubleshooting)
+
 
 ## Project Overview
 
