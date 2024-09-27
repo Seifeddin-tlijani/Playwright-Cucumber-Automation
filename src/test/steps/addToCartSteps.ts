@@ -23,7 +23,7 @@ Given('user search for a {string}', async function (book) {
 
   Then('the cart badge should get updated', async function () {
     const count =await pageFixture.page.locator("#mat-badge-content-0").textContent();
-    await pageFixture.page.waitForTimeout(1000);
+    await pageFixture.page.waitForTimeout(2000);
     expect(Number(count)).toBeGreaterThan(0);
 
   });
