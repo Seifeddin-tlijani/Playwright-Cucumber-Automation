@@ -16,4 +16,4 @@ Feature: Add products to cart
     Examples:
       | username  | password | book            |
       | seifeddin | Tlijani1 | Roomies         |
-      | ortonikc  | pass1234 | The Simple Wild |
+      | seifoun   | Seifoun1 | The Simple Wild |
